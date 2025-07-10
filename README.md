@@ -5,10 +5,10 @@ Structure of the app by domains, this makes it easy to manage and scale.
 ```text
 |--src
   |--server.js
-  |--customers
+  |--customer
      |--controller.js
      |--routes.js
-  |--products
+  |--product
      |--controller.js
      |--routes.js
 ```
@@ -29,10 +29,10 @@ npm start
 The tests follow a similar strcture to the application code, with each domain having its own test directory.
 ```text
 |--tests
-  |--customers
+  |--customer
      |--controller.spec.js
      |--routes.spec.js
-  |--products
+  |--product
      |--controller.spec.js
      |--routes.spec.js
 ```
